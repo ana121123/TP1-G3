@@ -1,0 +1,37 @@
+.header {
+  position: relative;
+  background-color: #fafafa;
+  padding: 10px 20px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  position: absolute;
+  left: 20px;
+}
+
+.logo img {
+  width: 210px;
+  height: 48px;
+}
+
+.login {
+  position: absolute;
+  right: 60px;
+}
+
+.login img {
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+}
+
+.titulo {
+  font-size: 18px;
+  color: #440259;
+  margin: 0;
+  text-align: center;
+}

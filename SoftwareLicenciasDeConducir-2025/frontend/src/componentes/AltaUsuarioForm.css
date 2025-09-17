@@ -1,0 +1,128 @@
+
+
+label {
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #1a73e8;
+  outline: none;
+}
+
+.botones-form {
+  grid-column: 1 / -1;
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+
+button:disabled {
+  background-color: #a0c4ff;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #155ab6;
+}
+
+.btn-cancelar {
+  background-color: #888;
+}
+
+.btn-cancelar:hover {
+  background-color: #555;
+}
+
+hr {
+  margin: 30px 0;
+  border: none;
+  border-top: 1px solid #eee;
+}
+
+.lista-usuarios {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/*
+.usuario-item {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.usuario-item span {
+  font-size: 1rem;
+}
+
+.usuario-item button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}*/
+
+.btn-editar, .btn-eliminar {
+  color: white;
+  border: none;
+  margin-left:10px ;
+  font-size: 13px !important;
+  width: 70px !important;   
+  height: 30px!important;
+ text-align: center !important;
+ padding: 0px !important;
+  
+}
+
+.btn-editar:hover:not(:disabled) {
+  background-color: #3b8a39;
+}
+
+/*.btn-eliminar {
+  background-color: #e53935;
+  color: white;
+  border: none;
+}*/
+
+.usuario-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  border-bottom: 1px solid #ccc;
+  gap: 10px;
+  background-color: #fafafa;
+  margin-bottom: 10px;
+  
+}
+
+.usuario-item span {
+  flex: 1; /* toma todo el ancho disponible */
+}
+
+/* Asegurate que los botones estén juntos */
+.usuario-item div {
+  display: flex;
+  gap: 8px;
+}

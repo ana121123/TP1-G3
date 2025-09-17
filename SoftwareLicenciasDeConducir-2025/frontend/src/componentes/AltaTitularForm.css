@@ -1,0 +1,113 @@
+.form-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 50px;
+  background: linear-gradient(135deg,  #f3c0287e 0%, #fd5f1b80 30%, #f02c567a 65%, #c20bbc58 100% );
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgb(255, 255, 255);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 30px;
+  padding-bottom: 5px;
+ /* border-bottom: 2px solid #ffffff;*/
+}
+
+.form-container label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.form-container textarea {
+  resize: vertical;
+  height: 80px;
+  margin-bottom: 25px;
+}
+
+.form-container button {
+ /* margin-top: 25px;*/
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg,#c20bbca0 0%, #e41f4ac2 70% );
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.error {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.formulario-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 0rem;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+}
+
+.campo label {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.campo input,
+.campo select,
+.campo textarea {
+  padding: 0.4rem;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.mensaje-exito {
+  color: green;
+  font-weight: bold;
+}
+
+.mensaje-error {
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .formulario-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}

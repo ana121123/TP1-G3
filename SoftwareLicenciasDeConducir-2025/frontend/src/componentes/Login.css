@@ -1,0 +1,73 @@
+
+/* Lado izquierdo */
+.login-info {
+  /*flex: 1;
+  padding: 40px 30px;*/
+  background-color: #ffffff;
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;*/
+  border-radius: 10000px;
+  width: 350px;
+  height: 350px;
+  margin-top: 40px;
+}
+
+
+.logo-sf {
+  width: 350px;
+  margin-top: 130px;
+  margin-left: 0px;
+
+}
+
+/* Lado derecho */
+.login-formulario {
+  flex: 1;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-formulario h2 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-formulario label {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.login-formulario input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ffadad;
+  font-size: 16px;
+}
+
+/*.login-formulario button {
+  background: linear-gradient(90deg, #2c60d9, #5ca0ff);
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+}*/
+
+.login-links {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.login-links a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #ffffff;
+}
