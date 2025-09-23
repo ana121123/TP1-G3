@@ -325,4 +325,14 @@ public class TitularService {
 
         return titularesRh;
     }
+
+    private List<Titular> filtrarPorNombre (String nombre){
+        List<Titular> titulares = titularRepository.findAll();
+
+        List<Titular> titularesNombre = titulares.stream()
+            .filter(t -> t.getNombre().equalsIgnoreCase(nombre))
+            .collect(Collectors.toList());
+
+        return titularesNombre;
+    }
 }
