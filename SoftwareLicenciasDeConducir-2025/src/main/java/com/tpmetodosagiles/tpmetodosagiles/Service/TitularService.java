@@ -1,12 +1,9 @@
 package com.tpmetodosagiles.tpmetodosagiles.Service;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties.Web.Client;
 import org.springframework.stereotype.Service;
 import com.tpmetodosagiles.tpmetodosagiles.Repository.*;
 import com.tpmetodosagiles.tpmetodosagiles.model.*;
-
-import jakarta.validation.Valid;
 
 import com.tpmetodosagiles.tpmetodosagiles.DTOs.*;
 import com.tpmetodosagiles.tpmetodosagiles.Exceptions.MapIllegalArgumentException;
@@ -15,7 +12,6 @@ import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 
