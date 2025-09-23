@@ -319,4 +319,14 @@ public class TitularService {
         t.setComprobanteDTO(comprobanteDTO);
 
     }
+
+    private List<Titular> filtrarPorRH (String rh){
+        List<Titular> titulares = titularRepository.findAll();
+
+        List<Titular> titularesRh = titulares.stream()
+            .filter(t -> t.getFactorRH().equalsIgnoreCase(rh))
+            .collect(Collectors.toList());
+
+        return titularesRh;
+    }
 }
