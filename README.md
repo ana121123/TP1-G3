@@ -1,6 +1,6 @@
 ## Notas del TP:
 - En el punto 2b en nuestro caso, como trabajamos con Visual Studio Code, deberíamos agregar al .gitignore al directorio .vscode/ pero ya viene configurado por defecto.
-- En el punto 2d nos olvidamos de la forma de versionado. Este release seria release/1.0.0.
+- En el punto 2d nos olvidamos de la forma de versionado. La rama release1 seria release/1.0.0.
 ---
 # Documentar con Git
 
