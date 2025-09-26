@@ -9,7 +9,7 @@ import com.tpmetodosagiles.tpmetodosagiles.DTOs.*;
 
 @RestController
 @RequestMapping("/api/clases")
-public class ClaseController {
+public class ClaseControllerAPI {
     @Autowired
     private ClaseService claseService;
 
